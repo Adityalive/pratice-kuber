@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: express
-          image: express-k8s:latest
+          image: express-kuber:latest
           imagePullPolicy: IfNotPresent  # use local image if it exists
           ports:
             - containerPort: 3000         # port your app listens on
